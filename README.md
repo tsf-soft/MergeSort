@@ -297,5 +297,57 @@ TsfMergeSort.exe -s -a -p8 -p16 outPutFile1.txt *
 4. Комплект файлов тестовых данных, можно скачать здесь: [Тестовые данные для проверки утилит](https://disk.yandex.ru/d/l4aRjuNC-rBffA);
 5. Исполняемые утилиты `TsfDataPrepare.jar`, `WinTsfDataPrepare.exe`, `TsfMergeSort.jar` и `WinTsfMergeSort.exe` можно скачать [здесь](https://disk.yandex.ru/d/YZ18-8OZkcdq_w).
 
+### **6.3. Зависимости модуля сборки**
+
+В проекте использована популярная библиотека Jackson для сериализации объектов Java в JSON-строку и десереализации JSON-строки в объект Java. Зависимости относящиеся к этой библиотеке, представлены в листинге 6.1 ниже.
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Shift</groupId>
+  <artifactId>java</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>test</name>
+  <description>Проект по заданию SHIFT на знание языка Java.</description>
+  ```xml
+	<dependencies>
+			  
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.9.0-M1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.23.1</version>
+            <scope>test</scope>
+        </dependency>
+       
+  	</dependencies>
+  	
+</project>
+```
+
 
 
