@@ -288,11 +288,11 @@ TsfMergeSort.exe -s -a -p8 -p16 outPutFile1.txt *
 
 "Заказчику" утилиты поставляются в следующем составе:
 1. Модули исходного кода классов java, в составе архива `SourceCode-of-TsfMergeSort.zip`;
-   1.1. составляющие утилиту `TsfDataPrepare` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\prepare_text_data\`;
-   1.2. составляющие утилиту `TsfMergeSort` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\merge_sort\`;
+   - составляющие утилиту `TsfDataPrepare` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\prepare_text_data\`;
+   - составляющие утилиту `TsfMergeSort` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\merge_sort\`;
 2. Модули скомпилированного кода классов java, в составе архива `SourceCode-of-TsfMergeSort.zip`;
-   2.1. составляющие утилиту `TsfDataPrepare` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\prepare_text_data\`;
-   2.2. составляющие утилиту `TsfMergeSort` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\merge_sort\`;
+   - составляющие утилиту `TsfDataPrepare` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\prepare_text_data\`;
+   - составляющие утилиту `TsfMergeSort` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\merge_sort\`;
 3. Модуль `maven` сборщика проекта `pom.xml`, находиться в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\`
 4. Комплект файлов тестовых данных, можно скачать здесь: [Тестовые данные для проверки утилит](https://disk.yandex.ru/d/l4aRjuNC-rBffA);
 5. Исполняемые утилиты `TsfDataPrepare.jar`, `WinTsfDataPrepare.exe`, `TsfMergeSort.jar` и `WinTsfMergeSort.exe` можно скачать [здесь](https://disk.yandex.ru/d/YZ18-8OZkcdq_w).
