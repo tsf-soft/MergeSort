@@ -309,11 +309,11 @@ TsfMergeSort.exe -s -a -p8 -p16 outPutFile1.txt *
 
 "Заказчику" утилиты поставляются в следующем составе:
 1. Модули исходного кода классов java, в составе архива `SourceCode-of-TsfMergeSort.zip`:
-   - составляющие утилиту `TsfDataPrepare`, нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\prepare_text_data\`;
-   - составляющие утилиту `TsfMergeSort` нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\merge_sort\`;
+   - составляющие утилиту `TsfDataPrepare`, находятся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\prepare_text_data\`;
+   - составляющие утилиту `TsfMergeSort` находятся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\src\main\java\merge_sort\`;
 2. Модули скомпилированного кода классов java, в составе архива `SourceCode-of-TsfMergeSort.zip`:
-   - составляющие утилиту `TsfDataPrepare`, нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\prepare_text_data\`;
-   - составляющие утилиту `TsfMergeSort`, нахотяся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\merge_sort\`;
+   - составляющие утилиту `TsfDataPrepare`, находятся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\prepare_text_data\`;
+   - составляющие утилиту `TsfMergeSort`, находятся в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\target\classes\merge_sort\`;
 3. Модуль `pom.xml` `maven` сборщика проекта находиться в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\`
 4. Комплект файлов тестовых данных, можно скачать здесь: [Тестовые данные для проверки утилит](https://disk.yandex.ru/d/l4aRjuNC-rBffA); <a name="fish_text"></a>
 5. Исполняемые утилиты `TsfDataPrepare.jar`, `WinTsfDataPrepare.exe`, `TsfMergeSort.jar` и `WinTsfMergeSort.exe` можно скачать [здесь](https://disk.yandex.ru/d/YZ18-8OZkcdq_w).
@@ -321,7 +321,7 @@ TsfMergeSort.exe -s -a -p8 -p16 outPutFile1.txt *
 
 ### **6.3. Зависимости модуля сборки**
 
-В проекте использована популярная библиотека Jackson для сериализации объектов Java в JSON-строку и десереализации JSON-строки в объект Java. Зависимости относящиеся к этой библиотеке, представлены в листинге `pom.xml`-файла сборщика проекта 6.1 ниже.
+В проекте использована популярная библиотека Jackson для сериализации объектов Java в JSON-строку и десериализации JSON-строки в объект Java. Зависимости относящиеся к этой библиотеке, представлены в листинге `pom.xml`-файла сборщика проекта 6.1 ниже.
 
 
 ```xml
