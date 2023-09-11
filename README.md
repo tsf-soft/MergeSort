@@ -383,3 +383,6 @@ _<p>Листинг 6.1.</p>_
 e-mail: i@tsf-soft.ru
 Telegram: https://t.me/tsf_soft.
 
+Сентябрь 2023 года.
+
+<br/>
