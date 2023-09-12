@@ -319,7 +319,7 @@ TsfMergeSort.exe -s -a -p8 outPutFile1.txt *
 3. Модуль `pom.xml` сборщика проекта maven находиться в каталоге `SourceCode-of-TsfMergeSort.zip\shift-java\`
 4. Комплект файлов тестовых данных, можно скачать здесь: [Тестовые данные для проверки утилит](https://disk.yandex.ru/d/l4aRjuNC-rBffA); <a name="fish_text"></a>
 5. Сами исполняемые утилиты `TsfDataPrepare.jar`, `WinTsfDataPrepare.exe`, `TsfMergeSort.jar` и `WinTsfMergeSort.exe` можно скачать [здесь](https://disk.yandex.ru/d/YZ18-8OZkcdq_w).
-6. Руководство пользователя в виде этого документа, которое также можно посмотреть на GitHub [здесь](https://github.com/tsf-soft/MergeSort).
+6. Руководство пользователя в виде этого документа, которое также можно посмотреть [здесь на GitHub](https://github.com/tsf-soft/MergeSort).
 
 ### **6.3. Зависимости модуля сборки**
 
